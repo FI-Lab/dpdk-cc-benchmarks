@@ -1,0 +1,10 @@
+
+CC=gcc
+LDFLAGS=
+CFLAGS=-O3
+
+test: sm_builder.c acsmx.c acsmx2.c bnfa_search.c util.c
+	$(CC) $(CFLAGS) sm_builder.c acsmx.c acsmx2.c bnfa_search.c util.c -o $@ $(LDFLAGS)
+
+clean:
+	rm *.o test

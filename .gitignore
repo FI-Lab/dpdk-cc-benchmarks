@@ -1,0 +1,17 @@
+build
+
+tags
+
+perf.data
+
+perf.data.old
+
+*.fib
+
+*.o
+
+paddr
+
+log
+
+data/pc/*.fib
